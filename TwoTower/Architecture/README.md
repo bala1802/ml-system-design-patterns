@@ -2,6 +2,8 @@
 
 The offline joint training phase is where both towers actually learn. This is the foundation of the entire recommendation system — get this wrong and nothing downstream works.
 
+![alt text](Offline_Joint_Training.png)
+
 ## What's Happening Here?
 
 The goal is simple: train two separate neural networks — one for users, one for items — so that when a user and a relevant item are compared, their vectors end up close to each other.
